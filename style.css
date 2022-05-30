@@ -10,7 +10,7 @@ body {
   display: block;
   text-align: right;
 }
-.eisehower-matrix img {
+.eisehower-matrix__img {
   width: 100%;
 }
 .more-inf {
@@ -35,7 +35,7 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.main-page__task-row-wrapper {
   display: flex;
 }
 ul {
@@ -64,7 +64,7 @@ button:hover {
 }
 
 /* Heading */
-h3,
+.main-page__title,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
@@ -98,12 +98,13 @@ label[for="new-task"] {
 #new-task {
   width: 318px;
 }
-#add-item{
+.main-page__title {
   border-bottom: none;
 }
 
 /* Task list */
-li {
+.menu__item,
+.edit-mode {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -114,7 +115,6 @@ li {
 li > * {
   vertical-align: middle;
 }
-
 li > input[type="checkbox"] {
   margin: 0 10px;
 }
@@ -127,12 +127,12 @@ li > label {
 li >  input[type="text"] {
   width: 226px;
 }
-.delete img {
+.button-delete__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete img:hover {
+.button-delete__img:hover {
   transform: rotateZ(0);
 }
 
