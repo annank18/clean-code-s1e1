@@ -98,6 +98,9 @@ label[for="new-task"] {
 #new-task {
   width: 318px;
 }
+#add-item{
+  border-bottom: none;
+}
 
 /* Task list */
 li {
