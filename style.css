@@ -103,8 +103,10 @@ label[for="new-task"] {
 }
 
 /* Task list */
-.menu__item,
-.edit-mode {
+.main-page__menu__completed__see,
+.main-page__menu__incomplete__pay,
+.main-page__menu__incomplete__shipping
+ {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
